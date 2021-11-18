@@ -33,7 +33,7 @@ function Home(props) {
     return (
       <>
         <h1>Shorten Your URL</h1>
-        <p>Enter a url you'd like to shorten and receive a shorten url</p>
+        <p>Enter a url you'd like to shorten and receive a shortened url</p>
         <input type="text" className="input" onChange={handleChange}/>
         <br/>
         <br/>
