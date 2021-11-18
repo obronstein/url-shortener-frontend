@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home(props) {
 
-  const RESTAPIURL = "https://tamid-url-shortener.herokuapp.com/";
+  const RESTAPIURL = "https://the-shortened-url.herokuapp.com/";
 
   const [error, setError] = useState(null);
   const [longURL, setLongURL] = useState([]);
