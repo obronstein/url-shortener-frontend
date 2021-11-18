@@ -38,7 +38,7 @@ function Home(props) {
         <br/>
         <br/>
         <button className="button" onClick={onButtonClick}>Shorten URL</button>
-        <h1><a href={shortURL}>{shortURL}</a></h1>
+        <h1><a href={shortURL} target="_blank" rel="noreferrer noopener">{shortURL}</a></h1>
     </>
     );
 
